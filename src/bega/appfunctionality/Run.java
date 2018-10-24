@@ -17,7 +17,7 @@ public class Run {
 				return input.nextInt();
 			} catch (InputMismatchException e) {
 				input.next();
-				System.out.println("Vas unos nije dobar. Probajte ponovo: ");
+				System.out.println("Your entry is wrong. Try again! ");
 			}
 		}
 	}
@@ -25,7 +25,7 @@ public class Run {
 	public static void run() throws InvalidKeySpecException, NoSuchAlgorithmException, SQLException {
 		
 		System.out.println("1 - Sign in \n"
-				+ "2 - Sign up" + "\n 0 - Exit");
+				+ "2 - Sign up" + "\n0 - Exit");
 		int option = isInteger();
 		
 		

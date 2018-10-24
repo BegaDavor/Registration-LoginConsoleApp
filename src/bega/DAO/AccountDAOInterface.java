@@ -1,7 +1,6 @@
 package bega.DAO;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
 
 import bega.DTO.Account;
 

@@ -58,7 +58,7 @@ public class AccountDAOImplementation implements AccountDAOInterface{
 				
 				statement.executeUpdate();
 				
-				System.out.println("Account is updated!");
+				System.out.println("Account is up to date!");
 			}
 		}
 		
